@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Tataletak2Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    TataletakRow(
+                    TataletakBox(
 
                         modifier = Modifier.padding(innerPadding)
                     )
